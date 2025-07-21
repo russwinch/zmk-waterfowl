@@ -113,7 +113,7 @@
 //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤                               ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
    &kp Z         &kp X         &kp C         &kp V         &kp B                                         &kp N         &kp M         &kp COMMA     &kp DOT       &kp FSLH               // 20-24 | 25-29
 //╰─────────────┴─────────────┴─────────────┴─────────────┴─────────────┤  ╭────────────╮  ╭───────────╮├─────────────┼─────────────┼─────────────┴─────────────┼─────────────╯
-                  &kp C_MUTE   &lt L_LOW ESC &mt LGUI BSPC XXX              &kp C_MUTE      XXX          XXX          &mt RSHFT SPACE &lt L_RAI RET  &kp C_PP                           // 30-34 | 35-39
+                  &kp C_MUTE   &lt L_LOW ESC &mt LGUI BSPC &mt LGUI BSPC   &kp C_MUTE      XXX          &mt RSHFT SPACE &mt RSHFT SPACE &lt L_RAI RET  &kp C_PP                           // 30-34 | 35-39
 //               ╰──────────╯ ╰─────────────┴─────────────┴─────────────╯  ╰────────────╯  ╰───────────╯╰─────────────┴─────────────┴─────────────╯ ╰──────────╯
                         >;
                         sensor-bindings = <
@@ -129,7 +129,7 @@
    XXX        XXX      M_GBP      M_PTAB     M_NTAB            &kp PLUS   &kp MINUS  &kp UNDER  &kp PIPE    &kp BSLH
    &kp C_PREV &kp C_PP &kp C_NEXT M_PDSK     M_NDSK            &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT   &kp SQT 
    XXX        XXX      &kp PSCRN  M_CTRL     M_WINS            XXX        XXX        XXX        &kp EQUAL   &kp DQT 
-              ___      ___        ___        XXX     XXX XXX   XXX        &kp DEL    ___        ___
+              ___      ___        ___        ___     XXX XXX   &kp DEL    &kp DEL    ___        ___
                         >;
                         sensor-bindings = <
                           &inc_dec_kp PAGE_DOWN PAGE_UP
@@ -144,7 +144,7 @@
    &kp EXCL  &kp AT    &kp HASH &kp DLLR &kp PRCNT        &kp CARET &kp AMPS &kp ASTRK &kp LPAR &kp RPAR
    &kp N1    &kp N2    &kp N3   &kp N4   &kp N5           &kp N6    &kp N7   &kp N8    &kp N9   &kp N0  
    &kp TILDE &kp GRAVE &kp LPAR &kp LBRC &kp LBKT         &kp RBKT  &kp RBRC &kp RPAR  &kp DOT  &kp RET 
-                 ___       ___      &kp TAB  XXX  XXX XXX     XXX       ___      ___       ___
+             ___       ___      &kp TAB  &kp TAB  XXX XXX ___       ___      ___       ___
                         >;
                         sensor-bindings = <
                           &inc_dec_kp PAGE_DOWN PAGE_UP
@@ -163,7 +163,7 @@
 //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤                               ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
     &kp C_PWR     XXX           XXX           XXX           XXX                                           &bt BT_PRV    &bt BT_NXT    XXX           XXX           &bt BT_CLR
 //╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤  ╭────────────╮  ╭───────────╮├─────────────┼─────────────┼─────────────┴─────────────┼─────────────╯
-                  XXX           ___           ___           XXX              XXX            XXX           XXX           ___           ___           XXX
+                  XXX           ___           ___           ___              XXX            XXX           ___           ___           ___           XXX
 //                            ╰─────────────┴─────────────┴─────────────╯  ╰────────────╯  ╰───────────╯╰─────────────┴─────────────┴─────────────╯
                         >;
                         sensor-bindings = <
