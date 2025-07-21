@@ -117,9 +117,9 @@
 //               ╰──────────╯ ╰─────────────┴─────────────┴─────────────╯  ╰────────────╯  ╰───────────╯╰─────────────┴─────────────┴─────────────╯ ╰──────────╯
                         >;
                         sensor-bindings = <
-                          &inc_dec_kp PAGE_DOWN PAGE_UP
+                          &inc_dec_kp PAGE_UP PAGE_DOWN
                           &inc_dec_kp C_VOL_DN C_VOL_UP
-                          &inc_dec_kp DOWN UP
+                          &inc_dec_kp UP DOWN
                           &inc_dec_kp LEFT RIGHT
                         >;
                 };
@@ -132,9 +132,9 @@
               ___      ___        ___        ___     XXX XXX   &kp DEL    ___        ___        ___
                         >;
                         sensor-bindings = <
-                          &inc_dec_kp PAGE_DOWN PAGE_UP
+                          &inc_dec_kp PAGE_UP PAGE_DOWN
                           &inc_dec_kp C_VOL_DN C_VOL_UP
-                          &inc_dec_kp DOWN UP
+                          &inc_dec_kp PAGE_UP PAGE_DOWN
                           &inc_dec_kp LEFT RIGHT
                         >;
                 };
@@ -147,9 +147,9 @@
              ___       ___      ___      &kp TAB  XXX XXX ___       ___      ___       ___
                         >;
                         sensor-bindings = <
-                          &inc_dec_kp PAGE_DOWN PAGE_UP
+                          &inc_dec_kp PAGE_UP PAGE_DOWN
                           &inc_dec_kp C_VOL_DN C_VOL_UP
-                          &inc_dec_kp DOWN UP
+                          &inc_dec_kp UP DOWN
                           &inc_dec_kp LEFT RIGHT
                         >;
                 };
@@ -167,9 +167,9 @@
 //                            ╰─────────────┴─────────────┴─────────────╯  ╰────────────╯  ╰───────────╯╰─────────────┴─────────────┴─────────────╯
                         >;
                         sensor-bindings = <
-                            &inc_dec_kp PAGE_DOWN PAGE_UP
+                            &inc_dec_kp PAGE_UP PAGE_DOWN
                             &inc_dec_kp C_VOL_DN C_VOL_UP
-                            &inc_dec_kp DOWN UP
+                            &inc_dec_kp UP DOWN
                             &inc_dec_kp LEFT RIGHT
                         >;
                 };
